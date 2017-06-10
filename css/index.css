@@ -51,6 +51,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 		float: left;
 		width: 80%;
 		margin: auto;
+		padding: 0.5em;
 	}
 	.logo-img {
 		width: 100%;
@@ -88,6 +89,9 @@ article, aside, footer, header, hgroup, main, nav, section {
 	.main-content {
 		transition: margin-left .5s;
 		padding: 20px;
+	}
+	.about-us {
+		display: none;
 	}
 
 	footer {
