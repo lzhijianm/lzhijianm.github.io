@@ -17,8 +17,8 @@ ul {
 }
 
 li {
-	display: inline;
-	float: left;
+	/*display: inline;*/
+	/*float: left;*/
 }
 
 
@@ -158,16 +158,18 @@ article, aside, footer, header, hgroup, main, nav, section {
 	.size-1of3 {
 		width: 33.33%;
 	}
-	.home-banner::after {
+	.main-content::after {
 		clear: both;
 		content: "";
 		display: table;
 	}
 	footer {
 		background-color: #303030;
-		float: left;
-		margin: 2em 0 0 0;
-		height: 15em;
+		/*position: static;*/
+		/*float: left;*/
+		margin: 2em 0 2em 0;
+		padding: 1em;
+		/*height: 15em;*/
 	}
 	.footer1 {
 		width: 91.66%;

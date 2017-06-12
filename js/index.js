@@ -5,6 +5,7 @@ $(document).ready(function() {
 		$(".sidenav").show();
 		$("header").css("margin-left", "250px");
 		$(".main-content").css("margin-left", "250px");
+		// $("footer").css("margin-left", "250px");
 	});
 
 	// hide sidenav if it is visible
@@ -14,6 +15,7 @@ $(document).ready(function() {
 				$(".sidenav").hide();
 				$("header").css("margin-left", "0");
 				$(".main-content").css("margin-left", "0");
+				// $("footer").css("margin-left", "0");
 				// alert("hello");
 			}
 		}
