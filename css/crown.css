@@ -1,3 +1,6 @@
-.crown-content img {
-	width: 100%;
+
+@media only screen and (min-width: 320px) {
+	.crown-content img {
+		width: 100%;
+	}
 }
