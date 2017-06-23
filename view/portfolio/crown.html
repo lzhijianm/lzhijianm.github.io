@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Milestone Crown</title>
 	<link rel="stylesheet" type="text/css" href="../../css/index.css">
-	<link rel="stylesheet" type="text/css" href="../css/crown.css">
+	<link rel="stylesheet" type="text/css" href="../../css/crown.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
@@ -18,8 +18,8 @@
 		<header id="head">
 			<span class="openNav">&#9776;</span>
 			<div class="logo">
-				<a href="index.html">
-					<img class="logo-img" src="../images/index/milestone-logo-white.gif" alt="logo" >
+				<a href="">
+					<img class="logo-img" src="../../images/index/milestone-logo-white.gif" alt="logo" >
 				</a>
 			</div>
 
@@ -41,7 +41,7 @@
 				<hr>
 				<div class="menu-item">
 					<div class="menu-icon"></div>
-					<a id="portfolio" class="top-menu-link" href="portfolio.html">Portfolio</a> 
+					<a id="portfolio" class="top-menu-link" href="">Portfolio</a> 
 				</div>
 				<hr>
 				<div class="menu-item">
@@ -51,7 +51,7 @@
 				<hr>
 				<div class="menu-item">
 					<div class="menu-icon"></div>
-					<a id="contact-us" class="top-menu-link" href="contact.html">Contact Us</a>
+					<a id="contact-us" class="top-menu-link" href="">Contact Us</a>
 				</div>
 				<hr>
 				<div class="menu-item">
@@ -76,27 +76,53 @@
 		section main
 		#############################################################-->
 		<section class="crown-content">
-			
-			<div class="image-wrapper">
-				<div class="crown">
-					<img id="crown-frontview" src="../images/portfolio/crown/crown-frontview.jpg" alt="crown-frontview">
-				</div>
 
-				<img id="livingroom01" src="../images/portfolio/crown/crown-living04.jpg" alt="livingroom">
-				<img id="livingroom02" src="../images/portfolio/crown/crown-living02.jpg" alt="livingroom-02">
-				<img src="../images/portfolio/crown/crown-living03.jpg" alt="livingroom">
-				<img src="../images/portfolio/crown/crown-living01.jpg" alt="livingroom">
-				<img src="../images/portfolio/crown/crown-basement03.jpg" alt="livingroom">
-				<img src="../images/portfolio/crown/crown-basement02.jpg" alt="livingroom">
-				<img src="../images/portfolio/crown/crown-basement01.jpg" alt="livingroom">
+			<div class="bool"></div>
 
-				<img src="../images/portfolio/crown/crown-bedroom02.jpg" alt="livingroom">
-				<img src="../images/portfolio/crown/crown-bedroom01.jpg" alt="livingroom">
-				<img src="../images/portfolio/crown/crown-garden01.jpg" alt="livingroom">
-				<img src="../images/portfolio/crown/crown-garden02.jpg" alt="livingroom">
+			<!-- The Modal -->
+			<div id="myModal" class="modal">
+				<img class="modal-content" id="img01">
+				<div id="caption"></div>
 			</div>
-			
 
+			<div class="thumbnails" id="grid" data-columns>
+				<div class="thumbnail-wrapper">
+					<img id="myImg" class="thumbnail-img" src="../../images/portfolio/crown/crown-frontview.jpg" alt="thumbnail-01">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img class="thumbnail-img" id="myImg" src="../../images/portfolio/crown/crown-living04.jpg" alt="livingroom">	
+				</div>
+				<div class="thumbnail-wrapper">
+					<img class="thumbnail-img" id="myImg" src="../../images/portfolio/crown/crown-living02.jpg" alt="livingroom-02">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img id="myImg" class="thumbnail-img" src="../../images/portfolio/crown/crown-living03.jpg" alt="livingroom">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img id="myImg" class="thumbnail-img" src="../../images/portfolio/crown/crown-living01.jpg" alt="livingroom">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img id="myImg" class="thumbnail-img" src="../../images/portfolio/crown/crown-basement03.jpg" alt="livingroom">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img id="myImg" class="thumbnail-img" src="../../images/portfolio/crown/crown-basement02.jpg" alt="livingroom">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img id="myImg" class="thumbnail-img" src="../../images/portfolio/crown/crown-basement01.jpg" alt="livingroom">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img id="myImg" class="thumbnail-img" src="../../images/portfolio/crown/crown-bedroom02.jpg" alt="livingroom">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img class="thumbnail-img" src="../../images/portfolio/crown/crown-bedroom01.jpg" alt="livingroom">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img id="myImg" class="thumbnail-img" src="../../images/portfolio/crown/crown-garden01.jpg" alt="livingroom">
+				</div>
+				<div class="thumbnail-wrapper">
+					<img id="myImg" class="thumbnail-img" src="../../images/portfolio/crown/crown-garden02.jpg" alt="livingroom">
+				</div>
+			</div>
 		</section>
 
 		<!--############################################################
@@ -116,10 +142,10 @@
 				<h4>Site Map</h4>
 				<ul class="left-menu">
 					<li><a href="#head">Home</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="">Portfolio</a></li>
 				</ul>
 				<ul class="mid-menu">
-					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="">Contact Us</a></li>
 					<li><a href="">About Us</a></li>
 					
 				</ul>
@@ -141,9 +167,9 @@
 	<!-- ############################################################
 	Javascript & JQuery
 	############################################################# -->
-	<script src="../js/index.js"></script>
-	<script src="../js/crown.js"></script>
-	<script src="../js/salvattore.js"></script>
+	<!-- <script src="../../js/index.js"></script> -->
+	<script src="../../js/crown.js"></script>
+	<script src="../../js/salvattore.js"></script>
 	
 </body>
 
