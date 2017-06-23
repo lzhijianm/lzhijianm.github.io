@@ -21,6 +21,13 @@ li {
 	/*float: left;*/
 }
 
+p {
+	font-family: "Vollkorn",Georgia,Cambria,"Times New Roman",Times,serif;
+	font-size: 0.875rem;
+	font-weight: normal;
+	line-height: 1.25;
+	margin-bottom: 1.25rem;
+}
 
 article, aside, footer, header, hgroup, main, nav, section {
     display: block;
@@ -172,6 +179,9 @@ article, aside, footer, header, hgroup, main, nav, section {
 		margin: 2em 0 2em 0;
 		padding: 1em;
 		/*height: 15em;*/
+	}
+	footer p {
+		margin-bottom: 0.25em;
 	}
 	.footer1 {
 		width: 91.66%;
@@ -400,13 +410,40 @@ article, aside, footer, header, hgroup, main, nav, section {
 		width: 50%;
 	}
 	footer {
+		height: 10em;
 		width: 100%;
+	}
+	.footer1 {
+		width: 30%;
+		border-right: 1px solid #5B5B5B;
+		/*margin-left: 5em;*/
+	}
+	.footer3 {
+		/*margin-left: 0;*/
+	}
+	.footer4 {
+		border-right: none;
 	}
 }
 
 /*large screen*/
 @media only screen and (min-width: 1440px) {
+	.content-wrapper {
+		width: 80%;
+		margin: auto;
+	}
 	.home-banner {
 		height: 440px;
+	}
+	.footer1 {
+		margin-left: 5em;
+	}
+	.footer3 {
+		width: 30%;
+		float: left;
+		margin-left: 1em;
+	}
+	.footer4 {
+		margin-left: 1em;
 	}
 }
