@@ -119,7 +119,7 @@ article, aside, footer, header, hgroup, main, nav, section {
 	}
 	.home-banner {
 		height: 11.5em;
-		background-image: url("../../sucai/oftheyear_fog.jpg");
+		background-image: url("images/oftheyear_fog.jpg");
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-size: cover;
